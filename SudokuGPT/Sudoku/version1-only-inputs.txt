@@ -1,0 +1,12 @@
+How would I go about creating a sudoku game in java using Object orientated programming and having a working GUI
+
+Give the completed code for step 1 please.
+
+Give the completed code for step 2 please.
+
+Give the completed code for step 3 please.
+
+Give the completed code for step 4 please.
+
+Now, combine all classes into one and make the game fully working.
+
