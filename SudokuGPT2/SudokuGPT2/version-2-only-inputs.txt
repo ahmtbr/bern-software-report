@@ -1,0 +1,30 @@
+How would I go about creating a sudoku game in java using Object orientated programming and having a working GUI. The game should generate a board with numbers in it and you have to fill the empty fields according to the sudoku rules to solve the puzzle. When generating the board with the number it should be with numbers so that the puzzle can be solved. List every class that needs to be included
+
+Give the implementation for the SudokuGame class
+
+Yes, give the implementation for the SudokuBoard class
+
+Now, give the implementation for the SudokuSolver class w.r.t. the other classes implemented.
+
+Yes, now give the implementation for the SudokuGUI class w.r.t. to other classes implemented.
+
+Give the implementation for the SudokuController class w.r.t. the other classes implemented.
+
+Give the implementation for the SudokuValidator class w.r.t. the other classes implemented.
+
+Now, implement a SudokuSolver class w.r.t. other classes implemented, that will immediately solve the game and show the result on the board after hitting the button on the GUI.
+
+No, that's okay. Now you need to get all the updated code together and make it into one class, and the code is required to create a game fully playable when hit "Run"
+
+There exists lots of problems with this code. 1st is that when hit "New Game," the program just erases the existing fields on the board, eventually making it empty.
+
+Now the problem with the "New Game" functionality is that every time it is called, it continuously reduces the number of input cells despite of successfully generating a new board.
+
+Two last problems, one is that every time "Check Solution", even if the board is not fully completed, it says "Congratulations! You've solved the puzzle." Fix this. Another is that in every new game, first three rows are just 1-9 following each other in a pattern. Fix this as well.
+
+One last thing, add a method to enable user to empty a before-filled field. 
+
+Now, the problem is when the user enters a number that conflicts with the row or column rule, it does not restrict the user to do so and notify them with the error message.
+
+One last problem is that the 3x3 box rule is also not enforced when creating the board. Another is that the board creation is not done as requested. It always generates the same board with only different cells being empty every next time. 
+
